@@ -1,0 +1,18 @@
+ .ant-table .ant-table-container table thead.ant-table-thead .ant-table-cell {
+     background-color: $antd-header
+ }
+
+ .ant-table .ant-table-container table tbody.ant-table-tbody .table-row-light .ant-table-cell {
+     background-color: var(--#{$prefix}antd-odd-row-bg);
+     color: var(--#{$prefix}antd-odd-row-color);
+ }
+
+ .ant-table .ant-table-container table tbody.ant-table-tbody .table-row-dark .ant-table-cell {
+     background-color: var(--#{$prefix}antd-even-row-bg);
+     color: var(--#{$prefix}antd-even-row-color);
+     //  background-color: #fafafa;
+ }
+
+ th.ant-table-cell {
+     text-transform: uppercase;
+ }

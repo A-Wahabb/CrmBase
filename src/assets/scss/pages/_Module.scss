@@ -1,0 +1,30 @@
+// .combineButton {
+//     background-color: rgb(240, 242, 245);
+//     overflow: hidden;
+//     border: solid 1px #3679bc;
+// }
+
+// .RadioToButton {
+//     list-style-type: none;
+// }
+
+// .RadioToButton input {
+//     display: none;
+// }
+
+// .RadioToButton label {
+//     color: #3679bc;
+//     background-color: rgb(240, 242, 245);
+//     width: 100%;
+// }
+
+// .RadioToButton input:checked+label,
+// .Checked+label,
+// .bookloadmore {
+//     background: #3679bc;
+//     color: white;
+// }
+
+.bg-danger-subtle td {
+    background-color: var(--vz-danger-bg-subtle) !important;
+}

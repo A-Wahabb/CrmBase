@@ -1,0 +1,60 @@
+/*
+File: Main Css File
+*/
+
+
+//Fonts
+@import "../../fonts/fonts";
+
+//Core files
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "variables";
+@import "variables-custom";
+@import "variables-dark";
+@import "./node_modules/bootstrap/scss/mixins";
+
+
+// Structure
+@import "../../structure/topbar";
+@import "../../structure/page-head";
+@import "../../structure/footer";
+@import "../../structure/vertical";
+@import "../../structure/horizontal";
+@import "../../structure/two-column";
+@import "../../structure/layouts";
+
+// Components
+@import "../../components/avatar";
+@import "../../components/helper";
+@import "../../components/preloader";
+@import "../../components/forms";
+@import "../../components/ribbons";
+
+// Bootstrap components
+@import "../../components/root";
+@import "../../components/reboot";
+@import "../../components/buttons";
+@import "../../components/breadcrumb";
+@import "../../components/card";
+@import "../../components/dropdown";
+@import "../../components/nav";
+@import "../../components/modal";
+@import "../../components/form-check";
+
+// Plugins
+@import "../../plugins/custom-scrollbar";
+// @import "../../plugins/multijs";
+@import "../../plugins/ckeditor";
+// @import "../../plugins/autocomplete";
+@import "../../plugins/antd";
+// Plugins
+@import "../../plugins/toastify";
+// @import "../../plugins/choices";
+// @import "../../plugins/flag-input";
+
+// Pages
+@import "../../pages/authentication";
+@import "../../pages/profile";
+@import "../../pages/Company";
+@import "../../pages/Module";
